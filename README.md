@@ -16,7 +16,8 @@ The program requires the training.1600000.processed.noemoticon.csv file in its d
 
 <img src="https://github.com/ipruter/Twitter-Sentiment-Analysis/blob/main/Images/sa%20nn%20performance.png" height="50%" width="50%" >
 
-The second cell requires that the user has a Twitter "application" that has an associated customer key, customer secret, access token, and access secret. An application is created on a developers account after they have requested and been granted access to Twitters API. In the 
+The second cell requires that the user has a Twitter "application" that has an associated customer key, customer secret, access token, and access secret. An application is created on a developers account after they have requested and been granted access to Twitters API. In the setup_twitter_oauth() method replace the placeholder variables with your own Twitter application authentication credentials. In the searchTwitter() method a sentiment can be done on a different topic by replacing the key words. Run the second cell and a scotter plot will display the general sentiment of the topic among Twitter users.
+
 <img src="https://github.com/ipruter/Twitter-Sentiment-Analysis/blob/main/Images/sa%20scatter%20plot.png" height="50%" width="50%" >
 
 ### How to Test Edgar Web Scraper
